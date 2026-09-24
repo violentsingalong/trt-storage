@@ -74,6 +74,21 @@ The pill container is a fit-use case, not a controlling design dimension. Do not
 
 The Cycle Mega is deliberately for upright 5–10 mL vials and does **not** provide fitted 1–3 mL positions; small vials would sit loose and may rattle. Preserve adequate finger access between adjacent large-vial positions and at the swab bay.
 
+Use **25.60 mm** as the uniform Cycle Mega upright-well diameter. The 25.40 mm coupon well fit the 25.04 mm Pharmacom vial closely, but 25.60 mm was selected to tolerate label seams, glass variation, and other minor imperfections without compromising insertion.
+
+Support narrower large vials with optional removable reducer liners rather than multiple permanent well sizes. Preferred liner concept:
+
+- short split collar or C-shaped insert rather than a full-height tight sleeve;
+- smooth PETG contact surfaces, with TPU retained as an optional high-grip variant;
+- common outer geometry fitting the 25.60 mm well;
+- vial-specific inner geometry for Gereropharm and KOSA ranges;
+- three shallow internal centering ribs where practical to reduce material and label drag;
+- positive finger-removal feature so the insert is not trapped in a blind well;
+- enough compliance to accommodate label seams and vial ovality;
+- no insert required for the Pharmacom vial.
+
+Validate liner outer clearance, retention, vial release, and whether the insert lifts out with the vial using a dedicated small coupon before integrating it into the Cycle Mega release.
+
 Use **63.50 mm (2.5 inches)** as the Cycle Mega reference exterior height, based on the written product specification. An image on the same page lists 2.25 inches; treat that graphic as inconsistent or outdated rather than allowing it to override the page's explicit Dimensions & Build section. The printable design must still verify that its floor, lid, and safe Z clearances fit the 56 mm capped-vial envelope.
 
 Perspective correction may estimate proportions, but resulting measurements remain `INFERRED`.

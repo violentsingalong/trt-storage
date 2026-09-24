@@ -61,6 +61,7 @@ Evaluate vial fit, lid registration, magnet force, usability, warping, and surfa
 - Prioritize horizontal 5–10 mL vial storage and larger supply storage.
 - Make the 44.45 mm interior layout selectable: TRT/supplies, expanded universal vial-and-pill-container channels, or open main box.
 - Treat Cycle Mega as a separate taller body sharing the Mega X/Y footprint and stack interface; it stores 5–10 mL vials upright and intentionally omits fitted 1–3 mL storage.
+- Use uniform 25.60 mm upright wells and provide optional removable reducer liners for narrower 5–10 mL vial bodies.
 - Use same magnetic/alignment system where practical.
 - Preserve the same stack-interface version and polarity convention as Mini.
 - Body and lid each remain single-piece X1C prints.

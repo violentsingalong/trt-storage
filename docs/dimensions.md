@@ -24,7 +24,8 @@ All dimensions are millimetres. `INFERRED` values must not be treated as product
 | Magnet encapsulation cover | 0.80 | TESTED_VISUAL | Least magnet witness/print-through of 0.4, 0.6, 0.8 mm coupon; holding force still pending |
 | Small-vial cavity / clearance | 17.00 / 0.21 diametral | TESTED_CURRENT_VIAL | User reports comfortable fit with current 3 mL vial; nominal 16.79 mm maximum not physically tested |
 | Large-vial trough / clearance | 26.00 / 0.40 diametral | TESTED_CURRENT_VIALS | User tested several differently sized capped vials; 26.0 mm reported as the sweet spot |
-| Vertical large-vial well | 25.4 / 25.6 / 25.8 candidates | PENDING_COUPON | 24 mm depth; narrowed around largest measured 25.04 mm body; published 25.60 mm envelope is reference rather than required physical stock |
+| Vertical large-vial well | 25.60 | TESTED_CURRENT_VIALS | Selected over snug 25.4 mm to tolerate vial imperfections and preserve smooth insertion |
+| Gereropharm/KOSA reducer liners | — | TBD | Removable split inserts for centering narrower vials in the common 25.6 mm well |
 | Lid XY clearance | 0.30 provisional | INFERRED | Must be calibrated with alignment test |
 | Structural wall | 2.40 provisional | INFERRED | PETG starting rule, not yet tested |
 | Reference open-cavity depth | ≈34.0 | KNOWN_REFERENCE | Published 1.34 in; reconcile printable floor/interface |

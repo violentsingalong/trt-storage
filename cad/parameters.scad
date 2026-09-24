@@ -67,4 +67,7 @@ lid_emblem_max_fraction = 0.42; // maximum fraction of smaller lid dimension
 small_well_diameters = [17.0, 17.2, 17.4, 17.6];
 large_trough_diameters = [25.8, 26.0, 26.2, 26.4, 26.6];
 vertical_well_diameters = [25.4, 25.6, 25.8];
+vertical_vial_cavity_d = 25.60; // TESTED_CURRENT_VIALS; selected Cycle Mega well
+vertical_liner_outer_d = undef; // TBD_FROM_LINER_COUPON
+vertical_liner_clearance = undef;
 magnet_cover_thicknesses = [0.4, 0.6, 0.8];
