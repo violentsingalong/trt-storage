@@ -98,6 +98,8 @@ For alcohol pads, measure:
 
 ## Current layout assumptions
 
+For the standing-vial Cycle Mega iteration, vial clearance controls the overall usable compartment height. The tallest currently measured vial is 54.4 mm, so use **56.0 mm provisional clear internal height** as the first layout target. Syringe, needle, and alcohol-pad bulk bins may use this available height but do not independently set the enclosure height.
+
 | Feature | Provisional usable envelope | Status |
 |---|---:|---|
 | One common alcohol-pad bay | 54 × 55 | INFERRED / PENDING_USER_MEASUREMENT |
@@ -106,5 +108,6 @@ For alcohol pads, measure:
 | Sterile 1 mL syringe package length | 136 | KNOWN_USER_MEASURED |
 | Wrapped 1-inch Luer-lock needle length | ≈91 | KNOWN_USER_MEASURED |
 | Wrapped 1-inch Luer-lock needle bulk bin | Length must accommodate ≈91 mm wrapper; width non-controlling | PENDING_CAPACITY_LAYOUT |
+| Cycle Mega clear internal height | 56.0 | PROVISIONAL_FROM_TESTED_OBJECT |
 | Standard Mega syringe capacity | 12–20 | KNOWN_REFERENCE |
 | Cycle Mega syringe capacity | 20–40 | KNOWN_REFERENCE |

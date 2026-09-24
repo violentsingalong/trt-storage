@@ -19,6 +19,7 @@ All dimensions are millimetres. `INFERRED` values must not be treated as product
 | Mega major storage arrangement | 2 side vial banks + 2 upper bays + 1 lower bay | INFERRED | Near-top-down loaded Mega photograph |
 | Cycle Mega arrangement | 14 upright 5–10 mL positions + upper packet bay + lower supply bay | KNOWN_REFERENCE | Separate taller variant; excludes fitted 1–3 mL storage |
 | Cycle Mega exterior X × Y × Z | 215.90 × 152.40 × 63.50 | KNOWN_REFERENCE | Written product specification: 8.5 × 6 × 2.5 in; same-page comparison graphic inconsistently says 2.25 in |
+| Cycle Mega provisional clear internal height | 56.00 | PROVISIONAL | Controlled by 54.40 mm tallest measured standing vial; provides 1.60 mm nominal top clearance |
 | Magnet shape and size | round Ø6.00 × 2.00 | KNOWN_USER_MEASURED | User-supplied magnet dimensions |
 | Magnet pocket Ø × depth | 6.20 × 2.20 | TESTED_INSERTION | All three 6 × 2 mm magnets seated successfully in coupon; retention/production repeatability pending |
 | Magnet encapsulation cover | 0.80 | TESTED_VISUAL | Least magnet witness/print-through of 0.4, 0.6, 0.8 mm coupon; holding force still pending |
