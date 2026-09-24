@@ -25,7 +25,9 @@ All dimensions are millimetres. `INFERRED` values must not be treated as product
 | Small-vial cavity / clearance | 17.00 / 0.21 diametral | TESTED_CURRENT_VIAL | User reports comfortable fit with current 3 mL vial; nominal 16.79 mm maximum not physically tested |
 | Large-vial trough / clearance | 26.00 / 0.40 diametral | TESTED_CURRENT_VIALS | User tested several differently sized capped vials; 26.0 mm reported as the sweet spot |
 | Vertical large-vial well | 25.60 | TESTED_CURRENT_VIALS | Selected over snug 25.4 mm to tolerate vial imperfections and preserve smooth insertion |
-| Gereropharm/KOSA reducer liners | — | TBD | Removable split inserts for centering narrower vials in the common 25.6 mm well |
+| Reducer-liner outer Ø / clearance | 25.40 / 0.20 diametral | PROVISIONAL | Split collar; validate insertion and retention in tested 25.60 mm well |
+| Gereropharm liner IDs | 24.0 / 24.2 / 24.4 | PENDING_COUPON | Clearances over measured 23.87 mm body: 0.13 / 0.33 / 0.53 mm |
+| KOSA liner IDs | 22.4 / 22.6 / 22.8 | PENDING_COUPON | Clearances over measured 22.21 mm body: 0.19 / 0.39 / 0.59 mm |
 | Lid XY clearance | 0.30 provisional | INFERRED | Must be calibrated with alignment test |
 | Structural wall | 2.40 provisional | INFERRED | PETG starting rule, not yet tested |
 | Reference open-cavity depth | ≈34.0 | KNOWN_REFERENCE | Published 1.34 in; reconcile printable floor/interface |

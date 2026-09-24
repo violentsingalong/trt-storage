@@ -89,6 +89,7 @@ make image          # build the local OpenSCAD/ADMesh image
 make check          # generate and validate the vial coupon
 make check-magnet   # generate and validate the magnet coupon
 make check-vertical # generate and validate the Cycle Mega vertical-well coupon
+make check-liners    # generate and validate removable vial-liner iterations
 make check-all      # generate and validate all calibration coupons
 ```
 
@@ -122,6 +123,15 @@ Follow the [Bambu Studio pause procedure](docs/bambu-studio-magnet-coupon.md). I
 - Upright wells: 25.4, 25.6, and 25.8 mm
 - Well depth: 24 mm with a 1 mm entry chamfer
 - Intended to select the Cycle Mega upright-well diameter using the measured vial assortment
+
+### Removable vial-liner iterations
+
+[Download the current STL](exports/stl/vault-lite-v0.1-vial-liner-iterations.stl)
+
+- Three Gereropharm split collars: 24.0, 24.2, and 24.4 mm IDs
+- Three KOSA split collars: 22.4, 22.6, and 22.8 mm IDs
+- Common provisional outer diameter: 25.4 mm for the selected 25.6 mm well
+- Integrated pull tabs and engraved G1–G3/K1–K3 identifiers
 
 ## Prototype printing assumptions
 
