@@ -119,7 +119,7 @@ Follow the [Bambu Studio pause procedure](docs/bambu-studio-magnet-coupon.md). I
 
 [Download the current STL](exports/stl/vault-lite-v0.1-vertical-vial-coupon.stl)
 
-- Upright wells: 25.6, 25.8, 26.0, and 26.2 mm
+- Upright wells: 25.4, 25.6, and 25.8 mm
 - Well depth: 24 mm with a 1 mm entry chamfer
 - Intended to select the Cycle Mega upright-well diameter using the measured vial assortment
 

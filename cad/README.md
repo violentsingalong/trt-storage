@@ -17,7 +17,7 @@ make check
 
 `make check-magnet` renders and checks the 6 × 2 mm magnet-cover coupon. With a 0.20 mm layer height, inspect the slicer preview and pause immediately before the first sealing layer above the nominal 4.60 mm pocket roof. Insert all three magnets with identical polarity and ensure they sit below the active print plane before resuming.
 
-`make check-vertical` renders and checks the 25.6–26.2 mm vertical 5–10 mL vial-well coupon.
+`make check-vertical` renders and checks the 25.4–25.8 mm vertical 5–10 mL vial-well coupon.
 
 See `../docs/bambu-studio-magnet-coupon.md` for the Bambu Studio procedure. Save the sliced setup with its verified pause as a Bambu `.3mf` project rather than relying on a fixed layer number in the raw STL.
 

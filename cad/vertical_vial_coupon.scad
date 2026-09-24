@@ -10,7 +10,7 @@ use <primitives.scad>
 */
 
 $fn = 96;
-base_x = 130;
+base_x = 98;
 base_y = 40;
 base_z = 3;
 base_radius = 3;
@@ -50,4 +50,3 @@ difference() {
             engraved_label(str(vertical_well_diameters[i]), 3.2, 0.5);
     }
 }
-
