@@ -90,6 +90,7 @@ make check          # generate and validate the vial coupon
 make check-magnet   # generate and validate the magnet coupon
 make check-vertical # generate and validate the Cycle Mega vertical-well coupon
 make check-liners    # generate and validate removable vial-liner iterations
+make check-fuzzy     # generate and validate three minimal fuzzy-skin cards
 make check-all      # generate and validate all calibration coupons
 ```
 
