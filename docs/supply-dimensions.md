@@ -46,7 +46,7 @@ Reference links:
 
 Use **160 × 90 mm usable X/Y** as the first parametric syringe-bay envelope for Mega/Cycle studies. This is not yet a production dimension. The final bay must be driven by the longest stored 1 mL and 3 mL assemblies and the desired quantity.
 
-The user's sterile 1 mL syringe package measures **136 mm long** and is longer than the user's packaged 3 mL syringe. It is therefore the current length-controlling syringe package. A 160 mm usable bay provides 24 mm of total longitudinal allowance, but package width, stack height, and removal access remain unvalidated.
+The user's sterile 1 mL syringe package measures **136 mm long** and is longer than the user's packaged 3 mL syringe. It is therefore the current length-controlling syringe package. A 160 mm usable bay provides 24 mm of total longitudinal allowance. These packages will be stored loose in a shared bulk bin rather than fitted lanes, so individual package width does not control the geometry; capacity, compartment depth, and removal access remain to be validated.
 
 ## Individually wrapped 1-inch Luer-lock needles
 
@@ -62,11 +62,11 @@ Reference links:
 - Keep wrappers flat or gently stacked; do not force tight bends into the sealed edges.
 - Provide finger access so a package can be lifted without scraping or pinching its sterile barrier.
 - Use radiused divider edges and avoid a tight press fit.
-- Size for the largest wrapper among the gauges/brands that will actually be stored.
+- Use a shared bulk bin rather than fitted lanes for individual packages.
 - Treat a shallow removable divider or dedicated flat bay as preferable to fitted slots for each needle.
 - Do not assign a production envelope until an actual package and stack have been measured.
 
-The user's current individually wrapped 1-inch Luer-lock needle package measures approximately **91 mm long**. Package width, hub-area thickness, stack height, and desired quantity are still required before selecting the usable bay envelope.
+The user's current individually wrapped 1-inch Luer-lock needle package measures approximately **91 mm long**. Individual wrapper width does not control the loose-storage geometry. Desired quantity, resulting pile/stack height, usable compartment depth, and removal access will determine capacity.
 
 ## Measurements required from current supplies
 
@@ -79,14 +79,13 @@ Measure each 1 mL and 3 mL configuration exactly as it will be stored:
 | Maximum thickness | Barrel, flange, cap, or safety mechanism |
 | Barrel diameter | Useful for nesting and divider geometry |
 | Needle/cap length | Record separately if needles may be stored detached |
-| Sterile pouch X/Y | Only if supplies will remain packaged |
+| Sterile pouch length | Only if supplies will remain packaged; width is non-controlling for the shared bulk bin |
 | Quantity | Needed to validate bay width, depth, and stacking arrangement |
 
 For individually wrapped 1-inch Luer-lock needles, measure:
 
-- sealed wrapper length and width, including the seal flange;
-- maximum thickness at the capped needle hub;
-- lightly compressed height of a stack of 10;
+- sealed wrapper length, including the seal flange;
+- approximate pile/stack height at the desired quantity;
 - all gauge/brand variants likely to be stored;
 - desired stored quantity.
 
@@ -106,6 +105,6 @@ For alcohol pads, measure:
 | Mega/Cycle loose syringe bay | 160 × 90 | INFERRED / PENDING_USER_MEASUREMENT |
 | Sterile 1 mL syringe package length | 136 | KNOWN_USER_MEASURED |
 | Wrapped 1-inch Luer-lock needle length | ≈91 | KNOWN_USER_MEASURED |
-| Wrapped 1-inch Luer-lock needle bay | TBD; length must accommodate ≈91 mm wrapper | PENDING_REMAINING_USER_MEASUREMENTS |
+| Wrapped 1-inch Luer-lock needle bulk bin | Length must accommodate ≈91 mm wrapper; width non-controlling | PENDING_CAPACITY_LAYOUT |
 | Standard Mega syringe capacity | 12–20 | KNOWN_REFERENCE |
 | Cycle Mega syringe capacity | 20–40 | KNOWN_REFERENCE |
