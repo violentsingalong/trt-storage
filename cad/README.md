@@ -9,6 +9,7 @@
 - `vial_liner_coupon_v2.scad` — full-depth G1/G3/K1 pass with increased well clearance and robust identifiers.
 - `vial_liner_g3_v3.scad` — single printable-wall G3 revision with flexible relief slots.
 - `fuzzy_skin_coupon.scad` — minimal upright wall card rendered in three labeled variants for per-object Bambu Studio texture settings.
+- `cycle_tray_v0.scad` — shallow 14-vial Cycle layout study with upper packet and lower packaged-supply bays; magnet/stack geometry intentionally deferred.
 
 The recommended reproducible workflow uses the included Docker container:
 
@@ -30,6 +31,8 @@ make check
 `make check-liner-g3-v3` renders and checks the single 24.4 mm ID G3 revision after the V2 wall was omitted by the 0.4 mm nozzle slicer profile.
 
 `make check-fuzzy` renders and checks the three 0.05/0.08/0.12 fuzzy-skin cards. The STLs contain labels but no texture; assign the per-object slicer settings in `../docs/bambu-studio-fuzzy-coupon.md`.
+
+`make check-cycle-tray-v0` renders and checks the shallow Cycle tray layout study. This is a plan and ergonomics artifact, not the final 63.5 mm magnetic body.
 
 See `../docs/bambu-studio-magnet-coupon.md` for the Bambu Studio procedure. Save the sliced setup with its verified pause as a Bambu `.3mf` project rather than relying on a fixed layer number in the raw STL.
 

@@ -93,6 +93,7 @@ make check-liners    # generate and validate removable vial-liner iterations
 make check-liners-v2 # generate and validate the full-depth G1/G3/K1 pass
 make check-liner-g3-v3 # generate and validate the single relieved G3 revision
 make check-fuzzy     # generate and validate three minimal fuzzy-skin cards
+make check-cycle-tray-v0 # generate and validate the shallow Cycle layout study
 make check-all      # generate and validate all calibration coupons
 ```
 
@@ -157,6 +158,18 @@ Follow the [Bambu Studio pause procedure](docs/bambu-studio-magnet-coupon.md). I
 - Full 24 mm depth with above-rim extraction ear
 
 This STL is retained as an archived test artifact. Physical evaluation established that the measured Gereropharm vial fits the standard 25.6 mm well adequately without a liner. K1 remains the only active liner candidate.
+
+### Cycle tray V0 layout study
+
+[Download the shallow layout-study STL](exports/stl/vault-lite-v0.1-cycle-tray-layout-study.stl)
+
+- Fourteen tested-diameter 25.6 mm upright wells
+- Mirrored five-plus-two well banks
+- Approximately 85.5 × 56.7 mm usable upper packet bay
+- Approximately 143.1 × 78.2 mm usable lower packaged-supply bay
+- Shallow 26.4 mm review artifact; not yet the final magnetic 63.5 mm body
+
+See [the Cycle tray V0 design note](docs/cycle-tray-v0.md).
 
 ## Prototype printing assumptions
 
