@@ -28,6 +28,10 @@ All dimensions are millimetres. `INFERRED` values must not be treated as product
 | Reducer-liner outer Ø / clearance | 25.40 / 0.20 diametral | PROVISIONAL | Split collar; validate insertion and retention in tested 25.60 mm well |
 | Gereropharm liner IDs | 24.0 / 24.2 / 24.4 | PENDING_COUPON | Clearances over measured 23.87 mm body: 0.13 / 0.33 / 0.53 mm |
 | KOSA liner IDs | 22.4 / 22.6 / 22.8 | PENDING_COUPON | Clearances over measured 22.21 mm body: 0.19 / 0.39 / 0.59 mm |
+| Common alcohol-prep pouch | ≈50 × 50 | REFERENCE_ONLY | Published examples; actual sealed packets and stack height still required |
+| Provisional alcohol-prep bay usable X × Y | 54 × 55 | INFERRED | Intended for common 50 × 50 mm packets with finger relief |
+| Provisional loose-syringe bay usable X × Y | 160 × 90 | INFERRED | Photo-derived Mega/Cycle study; final size depends on stored 1 mL and 3 mL assemblies |
+| Individually wrapped 1-inch Luer-lock needle envelope | — | PENDING_USER_MEASUREMENT | Preserve sterile wrapper; measure largest actual brand/gauge package and stack of 10 |
 | Lid XY clearance | 0.30 provisional | INFERRED | Must be calibrated with alignment test |
 | Structural wall | 2.40 provisional | INFERRED | PETG starting rule, not yet tested |
 | Reference open-cavity depth | ≈34.0 | KNOWN_REFERENCE | Published 1.34 in; reconcile printable floor/interface |

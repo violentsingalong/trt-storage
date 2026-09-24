@@ -18,7 +18,7 @@ Commercial products are used only as functional and dimensional references. Vaul
 | CAD toolchain | Dockerized OpenSCAD + ADMesh |
 | Printable artifacts | Horizontal vial-fit, vertical vial-well, and magnet-cover coupon STLs exported and validated |
 
-See [the dimension register](docs/dimensions.md) for the distinction between known, inferred, and physically tested values.
+See [the dimension register](docs/dimensions.md) for the distinction between known, inferred, and physically tested values. Packaging envelopes and measurement requirements for prep pads, syringes, and sterile needles are tracked in [the supply-dimensions study](docs/supply-dimensions.md).
 
 ## Planned models
 
