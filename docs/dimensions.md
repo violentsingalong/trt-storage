@@ -31,7 +31,8 @@ All dimensions are millimetres. `INFERRED` values must not be treated as product
 | Common alcohol-prep pouch | ≈50 × 50 | REFERENCE_ONLY | Published examples; actual sealed packets and stack height still required |
 | Provisional alcohol-prep bay usable X × Y | 54 × 55 | INFERRED | Intended for common 50 × 50 mm packets with finger relief |
 | Provisional loose-syringe bay usable X × Y | 160 × 90 | INFERRED | Photo-derived Mega/Cycle study; final size depends on stored 1 mL and 3 mL assemblies |
-| Individually wrapped 1-inch Luer-lock needle envelope | — | PENDING_USER_MEASUREMENT | Preserve sterile wrapper; measure largest actual brand/gauge package and stack of 10 |
+| Sterile 1 mL syringe package length | 136.0 | KNOWN_USER_MEASURED | Longer than user's packaged 3 mL syringe; current syringe-package length controller |
+| Individually wrapped 1-inch Luer-lock needle package length | ≈91.0 | KNOWN_USER_MEASURED | Preserve sterile wrapper; width, thickness, and stack height still pending |
 | Lid XY clearance | 0.30 provisional | INFERRED | Must be calibrated with alignment test |
 | Structural wall | 2.40 provisional | INFERRED | PETG starting rule, not yet tested |
 | Reference open-cavity depth | ≈34.0 | KNOWN_REFERENCE | Published 1.34 in; reconcile printable floor/interface |

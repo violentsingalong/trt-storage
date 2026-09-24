@@ -46,7 +46,7 @@ Reference links:
 
 Use **160 × 90 mm usable X/Y** as the first parametric syringe-bay envelope for Mega/Cycle studies. This is not yet a production dimension. The final bay must be driven by the longest stored 1 mL and 3 mL assemblies and the desired quantity.
 
-Do not assume packaged syringes fit this envelope. Individually sterile pouches are typically much larger than loose capped assemblies and require a separate layout.
+The user's sterile 1 mL syringe package measures **136 mm long** and is longer than the user's packaged 3 mL syringe. It is therefore the current length-controlling syringe package. A 160 mm usable bay provides 24 mm of total longitudinal allowance, but package width, stack height, and removal access remain unvalidated.
 
 ## Individually wrapped 1-inch Luer-lock needles
 
@@ -65,6 +65,8 @@ Reference links:
 - Size for the largest wrapper among the gauges/brands that will actually be stored.
 - Treat a shallow removable divider or dedicated flat bay as preferable to fitted slots for each needle.
 - Do not assign a production envelope until an actual package and stack have been measured.
+
+The user's current individually wrapped 1-inch Luer-lock needle package measures approximately **91 mm long**. Package width, hub-area thickness, stack height, and desired quantity are still required before selecting the usable bay envelope.
 
 ## Measurements required from current supplies
 
@@ -102,6 +104,8 @@ For alcohol pads, measure:
 | One common alcohol-pad bay | 54 × 55 | INFERRED / PENDING_USER_MEASUREMENT |
 | Standard Mega combined alcohol-pad capacity | two bays, about 60 total | KNOWN_CAPACITY / INFERRED_LAYOUT |
 | Mega/Cycle loose syringe bay | 160 × 90 | INFERRED / PENDING_USER_MEASUREMENT |
-| Wrapped 1-inch Luer-lock needle bay | TBD from actual sealed wrapper | PENDING_USER_MEASUREMENT |
+| Sterile 1 mL syringe package length | 136 | KNOWN_USER_MEASURED |
+| Wrapped 1-inch Luer-lock needle length | ≈91 | KNOWN_USER_MEASURED |
+| Wrapped 1-inch Luer-lock needle bay | TBD; length must accommodate ≈91 mm wrapper | PENDING_REMAINING_USER_MEASUREMENTS |
 | Standard Mega syringe capacity | 12–20 | KNOWN_REFERENCE |
 | Cycle Mega syringe capacity | 20–40 | KNOWN_REFERENCE |
