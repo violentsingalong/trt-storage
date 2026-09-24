@@ -76,16 +76,16 @@ The Cycle Mega is deliberately for upright 5–10 mL vials and does **not** prov
 
 Use **25.60 mm** as the uniform Cycle Mega upright-well diameter. The 25.40 mm coupon well fit the 25.04 mm Pharmacom vial closely, but 25.60 mm was selected to tolerate label seams, glass variation, and other minor imperfections without compromising insertion.
 
-Support narrower large vials with optional removable reducer liners rather than multiple permanent well sizes. Preferred liner concept:
+Support the narrower KOSA vial with an optional removable reducer liner rather than multiple permanent well sizes. The measured Gereropharm vial is accepted directly in the 25.60 mm well without a liner. Preferred remaining liner concept:
 
-- short split collar or C-shaped insert rather than a full-height tight sleeve;
+- full-well-depth split collar or compliant insert;
 - smooth PETG contact surfaces, with TPU retained as an optional high-grip variant;
 - common outer geometry fitting the 25.60 mm well;
-- vial-specific inner geometry for Gereropharm and KOSA ranges;
+- K1/22.40 mm candidate inner geometry for the measured KOSA vial;
 - three shallow internal centering ribs where practical to reduce material and label drag;
-- positive finger-removal feature so the insert is not trapped in a blind well;
+- positive finger-removal feature entirely above the rim so the insert bottoms before the feature carries insertion load;
 - enough compliance to accommodate label seams and vial ovality;
-- no insert required for the Pharmacom vial.
+- no insert required for the Pharmacom or Gereropharm vial.
 
 Validate liner outer clearance, retention, vial release, and whether the insert lifts out with the vial using a dedicated small coupon before integrating it into the Cycle Mega release.
 

@@ -34,3 +34,9 @@ V2 scope was subsequently reduced to **G1, G3, and K1 only**. G2 and the wider K
 Next Gereropharm pass: print one G3-derived liner with a 24.40 mm ID and an approximately 25.24–25.30 mm printable OD, using exterior reliefs/flats to reduce contact area. Verify slicer toolpaths before printing. G2 is still unnecessary unless G3 proves excessively loose.
 
 Implemented as V3 with a 25.30 mm OD, 0.45 mm radial wall, primary split, and two near-full-height relief slots that form three flexible petals above a 2 mm connecting band. The standalone mesh validates, but continuous wall toolpaths must be confirmed in Bambu Studio before printing.
+
+## Final Gereropharm decision
+
+The Gereropharm vial is accepted directly in the standard 25.60 mm well without a liner. Its measured 23.87 mm body leaves 1.73 mm diametral clearance (approximately 0.865 mm per side), which is adequate in actual use. Further Gereropharm liner development is closed because the added slicing, insertion, and handling complexity does not provide enough practical benefit.
+
+The G1/G3 and standalone G3 files remain in the repository as test history only. K1 remains the sole active removable-liner candidate for the narrower KOSA vial.

@@ -156,6 +156,8 @@ Follow the [Bambu Studio pause procedure](docs/bambu-studio-magnet-coupon.md). I
 - Two vertical relief slots and the primary split create flexible petals above a 2 mm connecting band
 - Full 24 mm depth with above-rim extraction ear
 
+This STL is retained as an archived test artifact. Physical evaluation established that the measured Gereropharm vial fits the standard 25.6 mm well adequately without a liner. K1 remains the only active liner candidate.
+
 ## Prototype printing assumptions
 
 - Material: PETG
