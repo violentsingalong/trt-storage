@@ -90,6 +90,7 @@ make check          # generate and validate the vial coupon
 make check-magnet   # generate and validate the magnet coupon
 make check-vertical # generate and validate the Cycle Mega vertical-well coupon
 make check-liners    # generate and validate removable vial-liner iterations
+make check-liners-v2 # generate and validate the full-depth G1/G3/K1 pass
 make check-fuzzy     # generate and validate three minimal fuzzy-skin cards
 make check-all      # generate and validate all calibration coupons
 ```
@@ -133,6 +134,17 @@ Follow the [Bambu Studio pause procedure](docs/bambu-studio-magnet-coupon.md). I
 - Three KOSA split collars: 22.4, 22.6, and 22.8 mm IDs
 - Common provisional outer diameter: 25.4 mm for the selected 25.6 mm well
 - Integrated pull tabs and engraved G1–G3/K1–K3 identifiers
+
+### Full-depth vial-liner V2 pass
+
+[Download the current V2 STL](exports/stl/vault-lite-v0.2-vial-liners-g1-g3-k1.stl)
+
+- G1: 24.0 mm ID for Gereropharm
+- G3: 24.4 mm ID for Gereropharm
+- K1: 22.4 mm ID for KOSA
+- Common 25.1 mm OD for 0.5 mm nominal diametral clearance in the 25.6 mm well
+- Full 24 mm well depth with the extraction ear above the rim
+- Larger labels plus physical notch coding; omitted G2/K2/K3 to minimize material
 
 ## Prototype printing assumptions
 

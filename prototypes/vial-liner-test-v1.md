@@ -22,3 +22,5 @@ Material/profile: PETG, 0.20 mm profile.
 - Verify that the full-depth liner remains removable and does not lift out with the vial.
 
 The V1 printable source and STL remain unchanged as a record of the tested artifact. Implement these changes in a separately identified V2 coupon.
+
+V2 scope was subsequently reduced to **G1, G3, and K1 only**. G2 and the wider KOSA variants are intentionally omitted to save print time and material.

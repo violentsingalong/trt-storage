@@ -6,6 +6,7 @@
 - `magnet_coupon.scad` — three-cover encapsulation test for the measured 6 × 2 mm disc magnets.
 - `vertical_vial_coupon.scad` — deep-wall upright-vial fit test for the Cycle Mega family.
 - `vial_liner_coupon.scad` — six removable split-collar iterations for narrower large vials.
+- `vial_liner_coupon_v2.scad` — full-depth G1/G3/K1 pass with increased well clearance and robust identifiers.
 - `fuzzy_skin_coupon.scad` — minimal upright wall card rendered in three labeled variants for per-object Bambu Studio texture settings.
 
 The recommended reproducible workflow uses the included Docker container:
@@ -22,6 +23,8 @@ make check
 `make check-vertical` renders and checks the 25.4–25.8 mm vertical 5–10 mL vial-well coupon.
 
 `make check-liners` renders and checks the Gereropharm and KOSA split-collar iteration set.
+
+`make check-liners-v2` renders and checks only the full-depth G1, G3, and K1 V2 liners selected after the first physical test.
 
 `make check-fuzzy` renders and checks the three 0.05/0.08/0.12 fuzzy-skin cards. The STLs contain labels but no texture; assign the per-object slicer settings in `../docs/bambu-studio-fuzzy-coupon.md`.
 
