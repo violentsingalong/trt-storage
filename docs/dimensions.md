@@ -10,6 +10,9 @@ All dimensions are millimetres. `INFERRED` values must not be treated as product
 | Small vial maximum Ø × H | 16.79 × 38.48 | KNOWN | Supplied compatibility graphic |
 | Large vial maximum Ø × L | 25.60 × 56.00 | KNOWN | Supplied compatibility graphic |
 | User's tallest current large vial, cap included | 55.00 long | KNOWN_USER_MEASURED | Physical vial measurement supplied by user |
+| Gereropharm vial: body Ø / cap Ø / overall H / straight body H | 23.87 / 22.20 / 54.40 / 40.50 | KNOWN_USER_MEASURED | Body diameter includes label |
+| Pharmacom vial: body Ø / cap Ø / overall H / straight body H | 25.04 / 21.76 / 44.89 / 31.90 | KNOWN_USER_MEASURED | Body diameter includes label; preferred brand and largest measured body |
+| KOSA vial: body Ø / cap Ø / overall H / straight body H | 22.21 / 22.04 / 54.01 / 42.05 | KNOWN_USER_MEASURED | Body diameter includes label |
 | Candidate pill container Ø × capped length | ≈21.0 × 51.5 | REFERENCE_ONLY | Product listing; fits universal large-vial channel but does not control geometry |
 | Small-vial pocket pattern | 3 × 2 | INFERRED | Mini reference photograph |
 | Corner magnet count | 4 per mating part | INFERRED | Mini and Mega photographs |
@@ -21,6 +24,7 @@ All dimensions are millimetres. `INFERRED` values must not be treated as product
 | Magnet encapsulation cover | 0.80 | TESTED_VISUAL | Least magnet witness/print-through of 0.4, 0.6, 0.8 mm coupon; holding force still pending |
 | Small-vial cavity / clearance | 17.00 / 0.21 diametral | TESTED_CURRENT_VIAL | User reports comfortable fit with current 3 mL vial; nominal 16.79 mm maximum not physically tested |
 | Large-vial trough / clearance | 26.00 / 0.40 diametral | TESTED_CURRENT_VIALS | User tested several differently sized capped vials; 26.0 mm reported as the sweet spot |
+| Vertical large-vial well | 25.6 / 25.8 / 26.0 / 26.2 candidates | PENDING_COUPON | 24 mm depth; centered on largest measured 25.04 mm body while retaining published 25.60 mm envelope |
 | Lid XY clearance | 0.30 provisional | INFERRED | Must be calibrated with alignment test |
 | Structural wall | 2.40 provisional | INFERRED | PETG starting rule, not yet tested |
 | Reference open-cavity depth | ≈34.0 | KNOWN_REFERENCE | Published 1.34 in; reconcile printable floor/interface |

@@ -16,7 +16,7 @@ Commercial products are used only as functional and dimensional references. Vaul
 | Magnet pocket | 6.20 mm diameter × 2.20 mm deep; insertion tested |
 | Magnet cover | 0.80 mm selected for best surface finish; mating hold test pending |
 | CAD toolchain | Dockerized OpenSCAD + ADMesh |
-| First printable artifacts | Vial-fit and magnet-cover coupon STLs exported and validated |
+| Printable artifacts | Horizontal vial-fit, vertical vial-well, and magnet-cover coupon STLs exported and validated |
 
 See [the dimension register](docs/dimensions.md) for the distinction between known, inferred, and physically tested values.
 
@@ -88,7 +88,8 @@ Requirements: Docker with the Compose plugin.
 make image          # build the local OpenSCAD/ADMesh image
 make check          # generate and validate the vial coupon
 make check-magnet   # generate and validate the magnet coupon
-make check-all      # run both
+make check-vertical # generate and validate the Cycle Mega vertical-well coupon
+make check-all      # generate and validate all calibration coupons
 ```
 
 Generated files are written to `exports/stl/` as the invoking host user.
@@ -113,6 +114,14 @@ Generated files are written to `exports/stl/` as the invoking host user.
 - Current selection: 0.8 mm, pending mating-force validation
 
 Follow the [Bambu Studio pause procedure](docs/bambu-studio-magnet-coupon.md). Inserted magnets are encapsulated permanently by this coupon.
+
+### Vertical large-vial coupon
+
+[Download the current STL](exports/stl/vault-lite-v0.1-vertical-vial-coupon.stl)
+
+- Upright wells: 25.6, 25.8, 26.0, and 26.2 mm
+- Well depth: 24 mm with a 1 mm entry chamfer
+- Intended to select the Cycle Mega upright-well diameter using the measured vial assortment
 
 ## Prototype printing assumptions
 
