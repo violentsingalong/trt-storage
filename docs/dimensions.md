@@ -26,9 +26,11 @@ All dimensions are millimetres. `INFERRED` values must not be treated as product
 | Small-vial cavity / clearance | 17.00 / 0.21 diametral | TESTED_CURRENT_VIAL | User reports comfortable fit with current 3 mL vial; nominal 16.79 mm maximum not physically tested |
 | Large-vial trough / clearance | 26.00 / 0.40 diametral | TESTED_CURRENT_VIALS | User tested several differently sized capped vials; 26.0 mm reported as the sweet spot |
 | Vertical large-vial well | 25.60 | TESTED_CURRENT_VIALS | Selected over snug 25.4 mm to tolerate vial imperfections and preserve smooth insertion |
-| Reducer-liner outer Ø / clearance | 25.40 / 0.20 diametral | PROVISIONAL | Split collar; validate insertion and retention in tested 25.60 mm well |
-| Gereropharm liner IDs | 24.0 / 24.2 / 24.4 | PENDING_COUPON | Clearances over measured 23.87 mm body: 0.13 / 0.33 / 0.53 mm |
-| KOSA liner IDs | 22.4 / 22.6 / 22.8 | PENDING_COUPON | Clearances over measured 22.21 mm body: 0.19 / 0.39 / 0.59 mm |
+| Reducer-liner V1 outer Ø / clearance | 25.40 / 0.20 diametral | TESTED_TOO_TIGHT | Gereropharm collars fit vial outside well but required excessive force in 25.60 mm well |
+| Reducer-liner V2 candidate outer Ø / clearance | 25.10 / 0.50 diametral | PROVISIONAL_NEXT_COUPON | Increase reliable insertion clearance while retaining centering |
+| Gereropharm liner IDs | 24.0 / 24.2 / 24.4 | TESTED_VIAL_FIT | All three fit remeasured 23.87 mm vial outside the well; preferred drag not yet selected |
+| KOSA liner IDs | 22.4 / 22.6 / 22.8 | PARTIAL_TEST | Suspected K1/22.4 fit 22.21 mm vial; poor label legibility prevents definitive identification |
+| Reducer-liner V2 height | 24.00 | PROVISIONAL_NEXT_COUPON | Full test-well depth; extraction feature must sit entirely above rim |
 | Common alcohol-prep pouch | ≈50 × 50 | REFERENCE_ONLY | Published examples; actual sealed packets and stack height still required |
 | Provisional alcohol-prep bay usable X × Y | 54 × 55 | INFERRED | Intended for common 50 × 50 mm packets with finger relief |
 | Provisional loose-syringe bay usable X × Y | 160 × 90 | INFERRED | Photo-derived Mega/Cycle study; final size depends on stored 1 mL and 3 mL assemblies |
