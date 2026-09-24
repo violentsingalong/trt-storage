@@ -30,6 +30,7 @@ All dimensions are millimetres. `INFERRED` values must not be treated as product
 | Reducer-liner V2 candidate outer Ø / clearance | 25.10 / 0.50 diametral | PROVISIONAL_NEXT_COUPON | Increase reliable insertion clearance while retaining centering |
 | Gereropharm liner G1, 24.0 ID | 0.13 nominal vial clearance | TESTED_TOO_TIGHT_IN_WELL | Assembly can be inserted together, but vial cannot be reinserted after removal |
 | Gereropharm liner G3, 24.4 ID | 0.53 nominal vial clearance | SLICER_REJECTED_V2_WALL | 25.10 OD left 0.35 mm radial wall; 0.4 mm nozzle profile omitted collar toolpaths |
+| Gereropharm liner G3 V3, 24.4 ID / 25.3 OD | 0.45 radial wall / 0.30 well clearance | PENDING_SLICER_AND_PRINT | Single full-depth liner with flexible relief slots; confirm continuous 0.4 mm-nozzle toolpaths |
 | KOSA liner IDs | 22.4 / 22.6 / 22.8 | PARTIAL_TEST | Suspected K1/22.4 fit 22.21 mm vial; poor label legibility prevents definitive identification |
 | Reducer-liner V2 height | 24.00 | PROVISIONAL_NEXT_COUPON | Full test-well depth; extraction feature must sit entirely above rim |
 | Common alcohol-prep pouch | ≈50 × 50 | REFERENCE_ONLY | Published examples; actual sealed packets and stack height still required |

@@ -91,6 +91,7 @@ make check-magnet   # generate and validate the magnet coupon
 make check-vertical # generate and validate the Cycle Mega vertical-well coupon
 make check-liners    # generate and validate removable vial-liner iterations
 make check-liners-v2 # generate and validate the full-depth G1/G3/K1 pass
+make check-liner-g3-v3 # generate and validate the single relieved G3 revision
 make check-fuzzy     # generate and validate three minimal fuzzy-skin cards
 make check-all      # generate and validate all calibration coupons
 ```
@@ -145,6 +146,15 @@ Follow the [Bambu Studio pause procedure](docs/bambu-studio-magnet-coupon.md). I
 - Common 25.1 mm OD for 0.5 mm nominal diametral clearance in the 25.6 mm well
 - Full 24 mm well depth with the extraction ear above the rim
 - Larger labels plus physical notch coding; omitted G2/K2/K3 to minimize material
+
+### Gereropharm G3 printable-wall revision
+
+[Download the current G3 STL](exports/stl/vault-lite-v0.3-vial-liner-g3.stl)
+
+- Single 24.4 mm ID Gereropharm liner
+- 25.3 mm outer envelope creates a 0.45 mm radial wall for the 0.4 mm nozzle profile
+- Two vertical relief slots and the primary split create flexible petals above a 2 mm connecting band
+- Full 24 mm depth with above-rim extraction ear
 
 ## Prototype printing assumptions
 

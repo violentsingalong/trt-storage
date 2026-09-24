@@ -32,3 +32,5 @@ V2 scope was subsequently reduced to **G1, G3, and K1 only**. G2 and the wider K
 - Do not use a 0.2 mm nozzle merely to preserve the G3 geometry. The production liner should remain printable with the standard 0.4 mm nozzle.
 
 Next Gereropharm pass: print one G3-derived liner with a 24.40 mm ID and an approximately 25.24–25.30 mm printable OD, using exterior reliefs/flats to reduce contact area. Verify slicer toolpaths before printing. G2 is still unnecessary unless G3 proves excessively loose.
+
+Implemented as V3 with a 25.30 mm OD, 0.45 mm radial wall, primary split, and two near-full-height relief slots that form three flexible petals above a 2 mm connecting band. The standalone mesh validates, but continuous wall toolpaths must be confirmed in Bambu Studio before printing.
