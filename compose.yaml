@@ -1,0 +1,10 @@
+services:
+  openscad:
+    build:
+      context: .
+    image: vault-lite-openscad:local
+    working_dir: /project/cad
+    volumes:
+      - .:/project
+    user: "${UID:-1000}:${GID:-1000}"
+

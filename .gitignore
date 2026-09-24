@@ -1,0 +1,13 @@
+# OpenSCAD and editor temporary files
+*.autosave
+*.bak
+*~
+
+# Operating-system metadata
+.DS_Store
+Thumbs.db
+
+# Bambu Studio temporary exports
+*.gcode
+*.gcode.3mf
+
