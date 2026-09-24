@@ -164,6 +164,7 @@ This STL is retained as an archived test artifact. Physical evaluation establish
 - Printer: Bambu Lab X1 Carbon
 - Body orientation: cavity upward
 - Initial production profile: 0.20 mm layer height and four walls
+- Exterior finish: normal smooth PETG; fuzzy skin was tested and rejected because it introduced additional artifacts
 - Calibration-only vial coupon: 0.24 mm Draft, three walls, 15% gyroid is acceptable
 - Supports should be avoided through geometry wherever practical
 

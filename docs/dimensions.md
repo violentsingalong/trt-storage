@@ -41,6 +41,7 @@ All dimensions are millimetres. `INFERRED` values must not be treated as product
 | Individually wrapped 1-inch Luer-lock needle package length | ≈91.0 | KNOWN_USER_MEASURED | Shared bulk bin; individual package width does not control geometry |
 | Lid XY clearance | 0.30 provisional | INFERRED | Must be calibrated with alignment test |
 | Structural wall | 2.40 provisional | INFERRED | PETG starting rule, not yet tested |
+| Exterior PETG surface finish | Normal smooth / fuzzy skin disabled | TESTED_SELECTION | 0.12 mm thickness at 0.40 mm distance was best fuzzy sample, but showed more artifacts than normal finish |
 | Reference open-cavity depth | ≈34.0 | KNOWN_REFERENCE | Published 1.34 in; reconcile printable floor/interface |
 | Stack registration geometry | — | TBD | Select using two-plate PETG coupon |
 | Stack magnet polarity map | — | TBD | Requires actual magnets and physical polarity jig |
