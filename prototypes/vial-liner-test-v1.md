@@ -24,3 +24,11 @@ Material/profile: PETG, 0.20 mm profile.
 The V1 printable source and STL remain unchanged as a record of the tested artifact. Implement these changes in a separately identified V2 coupon.
 
 V2 scope was subsequently reduced to **G1, G3, and K1 only**. G2 and the wider KOSA variants are intentionally omitted to save print time and material.
+
+## V2 in-process observations
+
+- G3 did not receive cylindrical-wall toolpaths with the 0.4 mm nozzle profile. Its 25.10 mm OD and 24.40 mm ID leave only a 0.35 mm radial wall; Bambu Studio retained the thicker label/ear but omitted the collar wall.
+- G1 can be forced into the 25.60 mm well around the Gereropharm vial, but after removing the vial it cannot be reinserted normally. The 24.00 mm ID provides only 0.13 mm nominal diametral vial clearance and is rejected for usability when constrained by the well.
+- Do not use a 0.2 mm nozzle merely to preserve the G3 geometry. The production liner should remain printable with the standard 0.4 mm nozzle.
+
+Next Gereropharm pass: print one G3-derived liner with a 24.40 mm ID and an approximately 25.24–25.30 mm printable OD, using exterior reliefs/flats to reduce contact area. Verify slicer toolpaths before printing. G2 is still unnecessary unless G3 proves excessively loose.
