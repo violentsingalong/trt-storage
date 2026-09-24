@@ -167,8 +167,9 @@ This STL is retained as an archived test artifact. Physical evaluation establish
 - Mirrored five-plus-two well banks
 - One continuous raised deck with overlapping 34 mm spherical divots and no drop gaps
 - Supply cavities share the exterior tray wall instead of duplicating it
-- Approximately 86.0 × 63.2 mm usable upper packet bay
-- Approximately 144.0 × 89.6 mm usable lower packaged-supply bay
+- Reserved 8 mm top/bottom walls plus side structure for the planned six-position bar-magnet interface
+- Approximately 84.0 × 57.6 mm usable upper packet bay
+- Approximately 142.0 × 84.0 mm usable lower packaged-supply bay
 - Shallow 26.4 mm review artifact; not yet the final magnetic 63.5 mm body
 
 See [the Cycle tray V0 design note](docs/cycle-tray-v0.md).

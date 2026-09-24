@@ -17,6 +17,7 @@ tray_x = mega_x;
 tray_y = mega_y;
 floor_z = 2.4;
 wall = 2.4;
+long_edge_magnet_rail = 8.0; // Top/bottom walls; exact pockets pending test.
 feature_h = 24.0;
 deck_top_z = floor_z + feature_h;
 full_perimeter_h = cycle_case_z - lid_thickness;
@@ -26,14 +27,15 @@ divot_d = 34.0;
 divot_r = divot_d / 2;
 divot_sphere_r = 34.0;
 
-outer_col_x = 20.5;
-inner_col_x = 49.5;
-row_ys = [21.0, 50.5, 80.0, 109.5, 139.0];
+outer_col_x = 22.0;
+inner_col_x = 51.0;
+row_ys = [22.0, 51.0, 80.0, 109.0, 138.0];
 
 // Usable cavity openings. Each uses the exterior wall directly at Y-min or
 // Y-max; the openings are separated by one 2.4 mm divider.
-lower_opening = [38.0, wall, 144.0, 89.6];
-upper_opening = [67.0, 94.4, 86.0, tray_y - wall - 94.4];
+lower_opening = [39.0, long_edge_magnet_rail, 142.0, 84.0];
+upper_opening = [68.0, 94.4, 84.0,
+                 tray_y - long_edge_magnet_rail - 94.4];
 opening_radius = 3.0;
 finger_d = 18.0;
 

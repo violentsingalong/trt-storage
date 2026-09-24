@@ -21,6 +21,7 @@ All dimensions are millimetres. `INFERRED` values must not be treated as product
 | Cycle Mega arrangement | 14 upright 5–10 mL positions + upper packet bay + lower supply bay | KNOWN_REFERENCE | Separate taller variant; excludes fitted 1–3 mL storage |
 | Commercial Cycle Mega reference X × Y × Z | 215.90 × 152.40 × 63.50 | KNOWN_REFERENCE | Written product specification: 8.5 × 6 × 2.5 in; same-page comparison graphic inconsistently says 2.25 in |
 | Vault Lite Cycle exterior X × Y × Z | 220.00 × 160.00 × 63.50 | SELECTED_DESIGN | Uses the shared Vault Lite Large footprint; height remains provisional pending lid/interface reconciliation |
+| Vault Lite Large top/bottom magnet walls | 8.00 wide | PROVISIONAL_LAYOUT | Highlighted long-edge walls; reclaimed from wipe/syringe cavity depth for 20 × 5 mm bar-pocket study |
 | Cycle Mega provisional clear internal height | 56.00 | PROVISIONAL | Controlled by 54.40 mm tallest measured standing vial; provides 1.60 mm nominal top clearance |
 | Magnet shape and size | round Ø6.00 × 2.00 | KNOWN_USER_MEASURED | User-supplied magnet dimensions |
 | Magnet pocket Ø × depth | 6.20 × 2.20 | TESTED_INSERTION | All three 6 × 2 mm magnets seated successfully in coupon; retention/production repeatability pending |

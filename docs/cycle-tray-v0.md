@@ -12,10 +12,11 @@ This shallow study establishes the interior plan before the ordered bar magnets 
 - The closed deck prevents small supplies and debris from falling between vial cylinders, supply bins, and the outer wall; the slicer may use normal internal infill rather than printing the deck solid.
 - The upper and lower supply cavities use the exterior tray wall directly at the top and bottom edges. There is no redundant parallel compartment wall.
 - The two supply cavities share one 2.4 mm internal divider.
-- Upper packet-bay usable opening: approximately 86.0 × 63.2 mm.
-- Lower packaged-supply-bay usable opening: approximately 144.0 × 89.6 mm.
+- Reserved top and bottom long-edge magnet walls: 8.0 mm wide, reclaimed from the wipe and syringe cavities; exact pockets remain pending physical tests.
+- Upper packet-bay usable opening: approximately 84.0 × 57.6 mm.
+- Lower packaged-supply-bay usable opening: approximately 142.0 × 84.0 mm.
 - Upper bay has bilateral finger-access scallops.
-- The measured 136 mm sterile 1 mL syringe package fits lengthwise in the lower bay with approximately 8.0 mm total nominal allowance.
+- The measured 136 mm sterile 1 mL syringe package fits lengthwise in the lower bay with approximately 6.0 mm total nominal allowance.
 - The common approximately 50 × 50 mm alcohol-prep packet envelope fits the upper bay.
 
 ## Deferred geometry
@@ -28,7 +29,7 @@ This shallow study establishes the interior plan before the ordered bar magnets 
 
 The source can preview a provisional full-height perimeter using `LAYOUT_STUDY=false`, but that mode is intentionally not treated as a production body until the magnetic interface is selected.
 
-The first and last vial rows now leave approximately 8.2 mm between the 25.6 mm vial envelope and the exterior edge. This reserves credible top/bottom corner bands for 20 × 5 mm bar magnets plus surrounding structure; exact pockets remain pending physical magnet tests.
+The first and last vial rows leave 9.2 mm between the 25.6 mm vial envelope and the top/bottom exterior edges. This provides 1.2 mm of nominal PETG between the vial envelope and each reserved 8 mm long-edge wall. The outer vial columns were also shifted inward to reserve separate left/right magnet structure. Together these zones can support a six-position layout—two pockets per short edge and one centered pocket per long edge—without expanding the footprint; exact pockets remain pending physical magnet tests.
 
 ## Review before a full body print
 
