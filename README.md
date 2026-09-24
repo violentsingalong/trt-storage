@@ -1,158 +1,148 @@
-# Vault Lite — Codex Handoff
+# Vault Lite
 
-## Project goal
+Vault Lite is a parametric, FDM-printable family of magnetic storage cases for medication vials, injection supplies, and related accessories. It is designed for PETG on a Bambu Lab X1 Carbon and uses shared interfaces so matching footprints can stack as modular storage layers.
 
-Design two premium-feeling, 3D-printable magnetic storage cases inspired by the functional layout and compact form factor of TRT Vault products, while adapting the construction for FDM printing on a Bambu Lab X1 Carbon.
+Commercial products are used only as functional and dimensional references. Vault Lite uses original CAD, visual treatment, and branding.
 
-This is a personal fabrication/prototyping project. Do not copy logos, trademarks, or decorative branding. Preserve useful functional ideas—compact layout, magnetic removable lid, vial orientations, and finger reliefs—while creating original printable geometry.
+## Project status
 
-## Target models
+**Current stage: V0.1 calibration complete; stack-interface and Mini prototype are next.**
 
-### Vault Lite Mini — peptide/small-vial case
-- Target exterior envelope: **152.4 × 127.0 × 44.45 mm**
-- Primary storage: **six 1–3 mL vials upright**
-- Secondary storage: supplies/consumables using the supplied Mini layout as a starting point.
+| Item | Result |
+|---|---|
+| Small-vial cavity | 17.00 mm tested with current 3 mL vial |
+| Horizontal large-vial trough | 26.00 mm selected across several current vials |
+| Magnets | Round 6 × 2 mm |
+| Magnet pocket | 6.20 mm diameter × 2.20 mm deep; insertion tested |
+| Magnet cover | 0.80 mm selected for best surface finish; mating hold test pending |
+| CAD toolchain | Dockerized OpenSCAD + ADMesh |
+| First printable artifacts | Vial-fit and magnet-cover coupon STLs exported and validated |
 
-### Vault Lite Mega — TRT/supply case
-- Target exterior envelope: **215.9 × 152.4 × 44.45 mm**
-- Primary storage: **5–10 mL vials horizontally**, with small-vial compatibility where practical.
-- Larger supply compartments based on the supplied Mega reference.
+See [the dimension register](docs/dimensions.md) for the distinction between known, inferred, and physically tested values.
 
-### Vault Lite Cycle Mega — taller large-vial case
-- Target exterior envelope: **215.9 × 152.4 × 63.5 mm**
-- Primary storage: **fourteen 5–10 mL vials upright**
-- No fitted 1–3 mL vial positions; small vials would sit loose.
-- Same X/Y footprint and modular-stack datum as Mega, but a separate taller body family.
+## Planned models
 
-Both bodies and lids must fit as single pieces within the X1C's **256 × 256 × 256 mm** build volume.
+### Mini
 
-### Modular storage layers
+- Exterior: **152.4 × 127.0 × 44.45 mm**
+- Six upright 1–3 mL vial positions
+- Secondary supply compartments
+- Removable magnetic lid
 
-Treat each exterior size as a reusable footprint rather than a single case:
-- same-footprint bodies may stack in any order;
-- purpose-built vial/supply layers and open-cavity layers share one interface;
-- only the uppermost layer needs a lid;
-- any layer may also accept a lid for standalone use;
-- the underside of a body mechanically registers with the layer below;
-- magnets provide retention, while printed geometry resists lateral shear.
+### Mega
 
-Mini and Mega are the initial targets. A 152.4 × 76.2 mm Micro footprint is recorded for future compatibility, but is not part of the first release unless explicitly added.
+- Exterior: **215.9 × 152.4 × 44.45 mm**
+- Horizontal 5–10 mL vial storage
+- Selectable TRT/supply, expanded vial, and open-cavity layouts
 
-## Design philosophy
+### Cycle Mega
 
-- Parametric first.
-- Prototype in ordinary PETG.
-- Monolithic body rather than removable organizer inserts for V1.
-- Removable magnetic slab lid.
-- Corner magnets should be captive when practical: print to magnet-pocket height, pause, insert magnets, then resume to encapsulate them.
-- Use mechanical alignment geometry so magnets provide retention rather than resisting all lateral shear.
-- Favor printable radii/chamfers and robust FDM wall thicknesses over literal reproduction of CNC geometry.
-- Maintain a clean, machined/EDC-inspired appearance.
-- No copied TRT Vault logo or branding.
-- Use the user-supplied three-arrow symbol as an original centered lid emblem, with a protective raised perimeter bezel; retain optional AMS color separation.
+- Exterior: **215.9 × 152.4 × 63.5 mm**
+- Fourteen upright 5–10 mL vial positions
+- Taller variant sharing the Mega X/Y footprint and stack datum
+- No fitted 1–3 mL storage
 
-## Source material
+### Future Micro
 
-See `reference/`:
+- Reference footprint: **152.4 × 76.2 mm**
+- Recorded for future interface compatibility; not currently part of V1 scope
 
-- `mini_top_reference.png` — best near-top-down view of the Mini interior.
-- `mega_reference.png` — angled view of the Mega interior and lid.
-- `mega_top_reference.webp` — near-top-down loaded view of the Mega interior.
-- `vial_fit_infographic.png` — manufacturer vial compatibility dimensions supplied by the user.
+All listed bodies and lids fit within the X1C's 256 × 256 mm build area.
 
-Interior dimensions inferred from photographs are estimates and must be labeled as such.
+## Modular stack system
 
-## Known dimensions
+Every body is also a storage layer:
 
-| Parameter | Value |
-|---|---:|
-| Mini exterior | 152.4 × 127.0 × 44.45 mm |
-| Mega exterior | 215.9 × 152.4 × 44.45 mm |
-| X1C build volume | 256 × 256 × 256 mm |
-| Large vial maximum diameter | 25.60 mm |
-| Large vial maximum overall length | 56.00 mm |
-| Small vial maximum diameter | 16.79 mm |
-| Small vial maximum height | 38.48 mm |
+- same-footprint layers can stack in any order;
+- purpose-built and open-cavity layers share one interface;
+- intermediate layers may be lidless;
+- only the uppermost layer requires a lid;
+- printed registration geometry carries lateral loads;
+- corner magnets provide retention rather than alignment;
+- lids, parked lids, and stacked bodies use one documented polarity convention.
 
-The vial dimensions are compatibility envelopes, **not cavity dimensions**. Clearance must be added for PETG/FDM.
+The registration geometry and polarity map remain under development and will be selected using a two-plate physical coupon.
 
-## First deliverable
+## Lid appearance
 
-Do **not** start by printing a full case.
+The default lid is monochrome black with a centered, shallow raised user-supplied emblem and a slightly taller perimeter bezel. The bezel protects the emblem and becomes the structural bearing surface when modules stack. The emblem remains a separate CAD region for an optional two-color AMS version.
 
-Create a small calibration model containing:
-- small-vial circular wells across a useful tolerance range;
-- large-vial troughs across a useful tolerance range;
-- magnet capture tests with multiple cover thicknesses once magnet dimensions are known;
-- optional alignment lip/socket test.
+See [the lid visual-language specification](docs/lid-visual-language.md).
 
-Suggested starting vial tests:
-- Small wells: **17.0, 17.2, 17.4, 17.6 mm**
-- Large troughs: **25.8, 26.0, 26.2, 26.4, 26.6 mm**
+## Repository layout
 
-Suggested magnet cover test: **0.4, 0.6, 0.8 mm**, adjusted after actual magnet dimensions are supplied.
+```text
+cad/             Parametric OpenSCAD sources and shared parameters
+docs/            Specifications, tested dimensions, and print instructions
+exports/stl/     Generated printable meshes
+exports/3mf/     Bambu Studio projects after slicer validation
+prototypes/      Prototype notes and future iteration artifacts
+reference/       Functional and dimensional reference images
+```
 
-**Magnet dimensions are currently UNKNOWN. Keep them as required parameters and do not invent them.**
+## Generate and validate models
 
-## CAD approach
+Requirements: Docker with the Compose plugin.
 
-Prefer a source-controlled parametric workflow. OpenSCAD is a strong default because it is text-native and easy for Codex to modify and diff. FreeCAD scripting is acceptable if it materially improves fillets, complex pockets, or export quality.
+```sh
+make image          # build the local OpenSCAD/ADMesh image
+make check          # generate and validate the vial coupon
+make check-magnet   # generate and validate the magnet coupon
+make check-all      # run both
+```
 
-Keep shared parameters centralized so Mini and Mega use the same:
-- wall rules;
-- corner-radius language;
-- lid gap;
-- alignment geometry;
-- magnet-pocket logic;
-- clearances;
-- chamfer/fillet conventions.
+Generated files are written to `exports/stl/` as the invoking host user.
 
-## Reproducible CAD container
+## Calibration artifacts
 
-The project includes a Docker-based OpenSCAD and ADMesh toolchain. From this directory, run `make image` once, then `make check` to render and mesh-check the current calibration coupon.
+### Vial-fit coupon
 
-## Printing assumptions
+[Download the current STL](exports/stl/vault-lite-v0.1-vial-coupon.stl)
 
-Initial material: **PETG**.
+- Upright wells: 17.0, 17.2, 17.4, and 17.6 mm
+- Full-length horizontal troughs: 25.8–26.6 mm
+- Current selections: 17.0 mm small-vial cavity and 26.0 mm large-vial trough
 
-Reasonable V1 assumptions, subject to calibration:
-- 0.20 mm layer height;
-- 4 walls/perimeters;
-- ~20–25% infill where relevant;
-- body printed cavity-up;
-- lid orientation chosen for best visible finish and magnet-pocket manufacturability.
+### Magnet-cover coupon
 
-Do not permanently bake slicer assumptions into geometry unless necessary.
+[Download the current STL](exports/stl/vault-lite-v0.1-magnet-cover-coupon.stl)
 
-## Magnet implementation
+- Magnet: 6 × 2 mm round disc
+- Pocket: 6.20 × 2.20 mm
+- Tested covers: 0.4, 0.6, and 0.8 mm
+- Current selection: 0.8 mm, pending mating-force validation
 
-For pause-and-insert encapsulated magnets:
-- Ensure inserted magnets sit below the active print plane.
-- Prevent nozzle/toolhead contact with exposed magnets.
-- Provide a polarity-control method or insertion jig.
-- Prefer four corner magnets initially, matching the observed reference concept.
-- Lid should be mechanically indexed/aligned rather than located solely by magnetic force.
-- Consider a second mating arrangement that allows the removed lid to park beneath the case; desirable, but not a V0 blocker.
-- Use one documented corner datum and polarity convention for lids, parked lids, and stacked layers so configurations cannot accidentally repel.
+Follow the [Bambu Studio pause procedure](docs/bambu-studio-magnet-coupon.md). Inserted magnets are encapsulated permanently by this coupon.
 
-## Version plan
+## Prototype printing assumptions
 
-- **V0.0** — reference analysis and parameter definitions.
-- **V0.1** — vial/magnet tolerance coupon.
-- **V0.2** — Mini body/lid geometry.
-- **V0.3** — Mini physical fit iteration.
-- **V0.4** — Mega body/lid geometry.
-- **V0.5** — Mega physical fit iteration.
-- **V1.0** — matched Mini + Mega printable release with documentation and exports.
+- Material: PETG
+- Printer: Bambu Lab X1 Carbon
+- Body orientation: cavity upward
+- Initial production profile: 0.20 mm layer height and four walls
+- Calibration-only vial coupon: 0.24 mm Draft, three walls, 15% gyroid is acceptable
+- Supports should be avoided through geometry wherever practical
 
-## Definition of done for V1.0
+Final settings will be published only after the body and lid are physically validated.
 
-- Mini and Mega source files are parametric and readable.
-- Both fit the X1C build plate as single-piece bodies and lids.
-- Real target vials fit without binding and can be removed easily.
-- Magnetic lid seats repeatably and cannot easily slide off laterally.
-- Magnet polarity/insertion process is documented.
-- STL exports exist for all printable parts.
-- 3MF project files may be included after slicer settings are validated.
-- README includes print orientation and assembly steps.
-- No third-party logos/trademarks are reproduced.
+## Roadmap and issues
+
+Outstanding work is tracked in [GitHub Issues](https://github.com/violentsingalong/trt-storage/issues). The implementation order is:
+
+1. Validate the shared magnetic stack and alignment interface.
+2. Build and physically iterate the Mini body and lid.
+3. Build and physically iterate the standard Mega layouts.
+4. Build the taller Cycle Mega variant.
+5. Add matching open-cavity modular layers.
+6. Finalize lid artwork, Bambu Studio projects, and release documentation.
+
+The detailed engineering sequence remains in [the project plan](docs/project-plan.md).
+
+## Design constraints
+
+- Keep all geometry parametric and source-controlled.
+- Label photograph-derived measurements as inferred.
+- Do not reproduce third-party logos, names, or decorative engraving.
+- Ensure inserted magnets sit below the active print plane before resuming a paused print.
+- Use mechanical indexing so magnets do not carry all lateral shear.
+- Validate real storage objects before calling a model production-ready.
