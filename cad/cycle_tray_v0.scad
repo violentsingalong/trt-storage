@@ -24,7 +24,9 @@ perimeter_h = layout_study ? study_h : full_perimeter_h;
 
 well_id = vertical_vial_cavity_d;
 well_wall = 2.4;
-well_od = well_id + 2 * well_wall;
+divot_d = 34.0;
+divot_r = divot_d / 2;
+divot_sphere_r = 34.0;
 
 outer_col_x = 18.5;
 inner_col_x = 47.3;
@@ -48,13 +50,60 @@ module rounded_frame(size, frame_wall, height, radius) {
     }
 }
 
-module vial_ring(x, y) {
-    translate([x, y, floor_z])
-        difference() {
-            cylinder(d = well_od, h = feature_h);
-            translate([0, 0, -0.1])
-                cylinder(d = well_id, h = feature_h + 0.2);
+module bank_footprint(side) {
+    outer_x = side == 0 ? outer_col_x : tray_x - outer_col_x;
+    inner_x = side == 0 ? inner_col_x : tray_x - inner_col_x;
+
+    union() {
+        // Five-position outer-column capsule.
+        hull() {
+            translate([outer_x, row_ys[0]]) circle(r = divot_r);
+            translate([outer_x, row_ys[4]]) circle(r = divot_r);
         }
+
+        // Two-by-two upper block, leaving the lower central bay unobstructed.
+        hull() {
+            for (x = [outer_x, inner_x])
+                for (i = [3, 4])
+                    translate([x, row_ys[i]]) circle(r = divot_r);
+        }
+    }
+}
+
+module spherical_divot(x, y) {
+    deck_top_z = floor_z + feature_h;
+    // Place the lower sphere surface at deck height at r=17 mm. With the
+    // selected 34 mm sphere radius, the surface falls about 2.05 mm by the
+    // 25.6 mm bore edge, creating a shallow machined-looking lead-in.
+    sphere_center_z = deck_top_z
+                    + sqrt(divot_sphere_r * divot_sphere_r
+                           - divot_r * divot_r);
+    translate([x, y, sphere_center_z])
+        sphere(r = divot_sphere_r, $fn = 96);
+}
+
+module bank_deck(side) {
+    outer_x = side == 0 ? outer_col_x : tray_x - outer_col_x;
+    inner_x = side == 0 ? inner_col_x : tray_x - inner_col_x;
+
+    difference() {
+        translate([0, 0, floor_z])
+            linear_extrude(height = feature_h)
+                bank_footprint(side);
+
+        // Five outer wells plus two upper inner wells.
+        for (y = row_ys) {
+            translate([outer_x, y, floor_z - 0.1])
+                cylinder(d = well_id, h = feature_h + 0.2);
+            spherical_divot(outer_x, y);
+        }
+
+        for (i = [3, 4]) {
+            translate([inner_x, row_ys[i], floor_z - 0.1])
+                cylinder(d = well_id, h = feature_h + 0.2);
+            spherical_divot(inner_x, row_ys[i]);
+        }
+    }
 }
 
 module bay_frame(rect, bilateral_access = false) {
@@ -89,17 +138,11 @@ union() {
                         outer_corner_radius - wall);
     }
 
-    // Five outer-column wells and two upper inner-column wells on each side.
-    for (side = [0, 1]) {
-        outer_x = side == 0 ? outer_col_x : tray_x - outer_col_x;
-        inner_x = side == 0 ? inner_col_x : tray_x - inner_col_x;
-
-        for (y = row_ys)
-            vial_ring(outer_x, y);
-
-        for (i = [3, 4])
-            vial_ring(inner_x, row_ys[i]);
-    }
+    // Continuous raised banks prevent small items and debris from falling
+    // between isolated wells. Overlapping 34 mm spherical divots create the
+    // deliberate machined surface around all fourteen openings.
+    for (side = [0, 1])
+        bank_deck(side);
 
     bay_frame(lower_bay, false);
     bay_frame(upper_bay, true);

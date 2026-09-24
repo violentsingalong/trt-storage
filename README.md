@@ -165,6 +165,7 @@ This STL is retained as an archived test artifact. Physical evaluation establish
 
 - Fourteen tested-diameter 25.6 mm upright wells
 - Mirrored five-plus-two well banks
+- Continuous raised vial-bank decks with overlapping 34 mm spherical divots
 - Approximately 85.5 × 56.7 mm usable upper packet bay
 - Approximately 143.1 × 78.2 mm usable lower packaged-supply bay
 - Shallow 26.4 mm review artifact; not yet the final magnetic 63.5 mm body
