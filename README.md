@@ -31,13 +31,13 @@ See [the dimension register](docs/dimensions.md) for the distinction between kno
 
 ### Mega
 
-- Exterior: **215.9 × 152.4 × 44.45 mm**
+- Exterior: **220 × 160 × 44.45 mm**
 - Horizontal 5–10 mL vial storage
 - Selectable TRT/supply, expanded vial, and open-cavity layouts
 
 ### Cycle Mega
 
-- Exterior: **215.9 × 152.4 × 63.5 mm**
+- Exterior: **220 × 160 × 63.5 mm**
 - Fourteen upright 5–10 mL vial positions
 - Taller variant sharing the Mega X/Y footprint and stack datum
 - No fitted 1–3 mL storage
@@ -47,7 +47,7 @@ See [the dimension register](docs/dimensions.md) for the distinction between kno
 - Reference footprint: **152.4 × 76.2 mm**
 - Recorded for future interface compatibility; not currently part of V1 scope
 
-All listed bodies and lids fit within the X1C's 256 × 256 mm build area.
+The 220 × 160 mm footprint is the original Vault Lite Large standard rather than a dimensional copy of the commercial reference. All listed bodies and lids fit within the X1C's 256 × 256 mm build area.
 
 ## Modular stack system
 
@@ -167,8 +167,8 @@ This STL is retained as an archived test artifact. Physical evaluation establish
 - Mirrored five-plus-two well banks
 - One continuous raised deck with overlapping 34 mm spherical divots and no drop gaps
 - Supply cavities share the exterior tray wall instead of duplicating it
-- Approximately 85.5 × 56.7 mm usable upper packet bay
-- Approximately 143.1 × 78.2 mm usable lower packaged-supply bay
+- Approximately 86.0 × 63.2 mm usable upper packet bay
+- Approximately 144.0 × 89.6 mm usable lower packaged-supply bay
 - Shallow 26.4 mm review artifact; not yet the final magnetic 63.5 mm body
 
 See [the Cycle tray V0 design note](docs/cycle-tray-v0.md).

@@ -6,8 +6,14 @@ micro_x = 152.40; // Reference ecosystem footprint: 6 x 3 in
 micro_y = 76.20;
 mini_x = 152.40;
 mini_y = 127.00;
-mega_x = 215.90;
-mega_y = 152.40;
+// KNOWN_REFERENCE — commercial Mega footprint retained for comparison only.
+reference_mega_x = 215.90;
+reference_mega_y = 152.40;
+
+// SELECTED_DESIGN — original metric Vault Lite Large footprint shared by all
+// Mega/Cycle/open-layer variants.
+mega_x = 220.00;
+mega_y = 160.00;
 case_z = 44.45;
 cycle_case_z = 63.50; // KNOWN_REFERENCE: written Cycle Mega product specification, 2.5 in
 

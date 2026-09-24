@@ -10,10 +10,12 @@ Bambu Lab X1 Carbon build envelope: **256 × 256 × 256 mm**
 - Y: 127.00 mm
 - Z: 44.45 mm
 
-### Mega envelope
-- X: 215.90 mm
-- Y: 152.40 mm
+### Vault Lite Large envelope
+- X: 220.00 mm
+- Y: 160.00 mm
 - Z: 44.45 mm
+
+The commercial Mega reference is 215.90 × 152.40 mm, but Vault Lite is not constrained to that footprint. The selected 220 × 160 mm metric footprint provides safe bar-magnet landing zones and is shared by standard Large, Cycle, and open-layer variants.
 
 ### Reference ecosystem Micro envelope
 - X: 152.40 mm
@@ -68,7 +70,7 @@ Keep the Mega source capable of generating more than one interior layout while p
 1. **TRT + supplies:** mirrored horizontal large-vial banks, upper swab compartments, and a broad syringe/supply bay.
 2. **Vials + pill containers:** increase the count of universal horizontal large-vial channels; each channel retains the 25.60 × 56.00 mm compatibility envelope and therefore also accepts the user's candidate pill containers at approximately 21.0 × 51.5 mm.
 3. **Open main box:** one large cavity for unconstrained storage, using the same modular-layer interface.
-4. **Cycle Mega family (separate height variant):** mirrored upright 5–10 mL vial banks along the left and right edges, one centered upper swab/packet bay with bilateral finger access, and one large centered lower syringe/supply bay. This is not a 44.45 mm Mega interior option; it requires a taller body while retaining the Mega X/Y footprint and stack-interface datum.
+4. **Cycle Large family (separate height variant):** mirrored upright 5–10 mL vial banks along the left and right edges, one centered upper swab/packet bay with bilateral finger access, and one large centered lower syringe/supply bay. This is not a 44.45 mm Large interior option; it requires a taller body while retaining the 220 × 160 mm X/Y footprint and stack-interface datum.
 
 The pill container is a fit-use case, not a controlling design dimension. Do not narrow universal channels around that specific product.
 
@@ -98,8 +100,8 @@ Perspective correction may estimate proportions, but resulting measurements rema
 ```text
 mini_x = 152.40
 mini_y = 127.00
-mega_x = 215.90
-mega_y = 152.40
+mega_x = 220.00
+mega_y = 160.00
 case_z = 44.45
 
 small_vial_max_d = 16.79

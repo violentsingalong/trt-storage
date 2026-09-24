@@ -18,7 +18,7 @@
 - Cross-check scale against known vial envelope.
 
 ### Mega
-- Perspective-correct top plane using known 215.9 × 152.4 mm envelope.
+- Perspective-correct the commercial reference using its known 215.9 × 152.4 mm envelope; do not treat that as the controlling Vault Lite footprint.
 - Estimate major compartment boundaries and repeated geometry.
 - Explicitly label confidence/uncertainty.
 
@@ -57,7 +57,7 @@ Evaluate vial fit, lid registration, magnet force, usability, warping, and surfa
 
 ## Phase 5 — Mega prototype
 - Reuse shared case/lid primitives.
-- Target 215.9 × 152.4 × 44.45 mm.
+- Target the selected 220 × 160 × 44.45 mm Vault Lite Large envelope.
 - Prioritize horizontal 5–10 mL vial storage and larger supply storage.
 - Make the 44.45 mm interior layout selectable: TRT/supplies, expanded universal vial-and-pill-container channels, or open main box.
 - Treat Cycle Mega as a separate taller body sharing the Mega X/Y footprint and stack interface; it stores 5–10 mL vials upright and intentionally omits fitted 1–3 mL storage.

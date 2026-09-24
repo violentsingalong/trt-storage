@@ -4,7 +4,7 @@ This shallow study establishes the interior plan before the ordered bar magnets 
 
 ## Plan
 
-- Footprint: 215.9 × 152.4 mm.
+- Footprint: **220 × 160 mm**, the selected Vault Lite Large standard. The former 215.9 × 152.4 mm footprint remains a commercial reference only.
 - Fourteen 25.6 mm upright vial wells cut into one continuous monolithic deck.
 - Left and right banks each contain five wells in the outer column plus two wells at the packet end of the inner column.
 - Retaining-well height: 24 mm above a 2.4 mm floor.
@@ -12,10 +12,10 @@ This shallow study establishes the interior plan before the ordered bar magnets 
 - The closed deck prevents small supplies and debris from falling between vial cylinders, supply bins, and the outer wall; the slicer may use normal internal infill rather than printing the deck solid.
 - The upper and lower supply cavities use the exterior tray wall directly at the top and bottom edges. There is no redundant parallel compartment wall.
 - The two supply cavities share one 2.4 mm internal divider.
-- Upper packet-bay usable opening: approximately 85.5 × 56.7 mm.
-- Lower packaged-supply-bay usable opening: approximately 143.1 × 78.2 mm.
+- Upper packet-bay usable opening: approximately 86.0 × 63.2 mm.
+- Lower packaged-supply-bay usable opening: approximately 144.0 × 89.6 mm.
 - Upper bay has bilateral finger-access scallops.
-- The measured 136 mm sterile 1 mL syringe package fits lengthwise in the lower bay with approximately 7.1 mm total nominal allowance.
+- The measured 136 mm sterile 1 mL syringe package fits lengthwise in the lower bay with approximately 8.0 mm total nominal allowance.
 - The common approximately 50 × 50 mm alcohol-prep packet envelope fits the upper bay.
 
 ## Deferred geometry
@@ -27,6 +27,8 @@ This shallow study establishes the interior plan before the ordered bar magnets 
 - corner landing pads shared by lid and body-to-body stacking.
 
 The source can preview a provisional full-height perimeter using `LAYOUT_STUDY=false`, but that mode is intentionally not treated as a production body until the magnetic interface is selected.
+
+The first and last vial rows now leave approximately 8.2 mm between the 25.6 mm vial envelope and the exterior edge. This reserves credible top/bottom corner bands for 20 × 5 mm bar magnets plus surrounding structure; exact pockets remain pending physical magnet tests.
 
 ## Review before a full body print
 

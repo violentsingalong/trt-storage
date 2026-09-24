@@ -26,14 +26,14 @@ divot_d = 34.0;
 divot_r = divot_d / 2;
 divot_sphere_r = 34.0;
 
-outer_col_x = 18.5;
-inner_col_x = 47.3;
-row_ys = [18.5, 47.3, 76.1, 104.9, 133.7];
+outer_col_x = 20.5;
+inner_col_x = 49.5;
+row_ys = [21.0, 50.5, 80.0, 109.5, 139.0];
 
 // Usable cavity openings. Each uses the exterior wall directly at Y-min or
 // Y-max; the openings are separated by one 2.4 mm divider.
-lower_opening = [36.4, wall, 143.1, 86.1];
-upper_opening = [65.2, 90.9, 85.5, tray_y - wall - 90.9];
+lower_opening = [38.0, wall, 144.0, 89.6];
+upper_opening = [67.0, 94.4, 86.0, tray_y - wall - 94.4];
 opening_radius = 3.0;
 finger_d = 18.0;
 

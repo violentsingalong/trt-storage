@@ -6,7 +6,8 @@ All dimensions are millimetres. `INFERRED` values must not be treated as product
 |---|---:|---|---|
 | Micro exterior X × Y × Z | 152.40 × 76.20 × 44.45 | KNOWN_REFERENCE | Published 6 × 3 × 1.75 in footprint; future scope |
 | Mini exterior X × Y × Z | 152.40 × 127.00 × 44.45 | KNOWN | Supplied handoff |
-| Mega exterior X × Y × Z | 215.90 × 152.40 × 44.45 | KNOWN | Supplied handoff |
+| Commercial Mega reference X × Y × Z | 215.90 × 152.40 × 44.45 | KNOWN_REFERENCE | Functional reference only; no longer the controlling printable footprint |
+| Vault Lite Large exterior X × Y × Z | 220.00 × 160.00 × 44.45 | SELECTED_DESIGN | Shared metric footprint for Large, Cycle, and open-layer modules |
 | Small vial maximum Ø × H | 16.79 × 38.48 | KNOWN | Supplied compatibility graphic |
 | Large vial maximum Ø × L | 25.60 × 56.00 | KNOWN | Supplied compatibility graphic |
 | User's tallest current large vial, cap included | 55.00 long | KNOWN_USER_MEASURED | Physical vial measurement supplied by user |
@@ -18,7 +19,8 @@ All dimensions are millimetres. `INFERRED` values must not be treated as product
 | Corner magnet count | 4 per mating part | INFERRED | Mini and Mega photographs |
 | Mega major storage arrangement | 2 side vial banks + 2 upper bays + 1 lower bay | INFERRED | Near-top-down loaded Mega photograph |
 | Cycle Mega arrangement | 14 upright 5–10 mL positions + upper packet bay + lower supply bay | KNOWN_REFERENCE | Separate taller variant; excludes fitted 1–3 mL storage |
-| Cycle Mega exterior X × Y × Z | 215.90 × 152.40 × 63.50 | KNOWN_REFERENCE | Written product specification: 8.5 × 6 × 2.5 in; same-page comparison graphic inconsistently says 2.25 in |
+| Commercial Cycle Mega reference X × Y × Z | 215.90 × 152.40 × 63.50 | KNOWN_REFERENCE | Written product specification: 8.5 × 6 × 2.5 in; same-page comparison graphic inconsistently says 2.25 in |
+| Vault Lite Cycle exterior X × Y × Z | 220.00 × 160.00 × 63.50 | SELECTED_DESIGN | Uses the shared Vault Lite Large footprint; height remains provisional pending lid/interface reconciliation |
 | Cycle Mega provisional clear internal height | 56.00 | PROVISIONAL | Controlled by 54.40 mm tallest measured standing vial; provides 1.60 mm nominal top clearance |
 | Magnet shape and size | round Ø6.00 × 2.00 | KNOWN_USER_MEASURED | User-supplied magnet dimensions |
 | Magnet pocket Ø × depth | 6.20 × 2.20 | TESTED_INSERTION | All three 6 × 2 mm magnets seated successfully in coupon; retention/production repeatability pending |
