@@ -5,11 +5,13 @@ This shallow study establishes the interior plan before the ordered bar magnets 
 ## Plan
 
 - Footprint: 215.9 × 152.4 mm.
-- Fourteen 25.6 mm upright vial wells in two continuous raised side-bank decks.
+- Fourteen 25.6 mm upright vial wells cut into one continuous monolithic deck.
 - Left and right banks each contain five wells in the outer column plus two wells at the packet end of the inner column.
 - Retaining-well height: 24 mm above a 2.4 mm floor.
 - Each opening has a 34 mm shallow spherical divot. Adjacent divots overlap intentionally to create a continuous machined appearance and improve vial access.
-- The closed bank surfaces prevent small supplies and debris from falling between isolated vial cylinders; the slicer may use normal internal infill rather than printing the banks solid.
+- The closed deck prevents small supplies and debris from falling between vial cylinders, supply bins, and the outer wall; the slicer may use normal internal infill rather than printing the deck solid.
+- The upper and lower supply cavities use the exterior tray wall directly at the top and bottom edges. There is no redundant parallel compartment wall.
+- The two supply cavities share one 2.4 mm internal divider.
 - Upper packet-bay usable opening: approximately 85.5 × 56.7 mm.
 - Lower packaged-supply-bay usable opening: approximately 143.1 × 78.2 mm.
 - Upper bay has bilateral finger-access scallops.
